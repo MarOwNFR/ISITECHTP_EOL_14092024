@@ -1,0 +1,12 @@
+- name: install apache2
+  remote_user: user
+  hosts: webserver
+  become: true
+  gather_facts: true
+  tasks:
+    - name: "Install apache2"
+      become: true
+      become_user: root
+      ansible.builtin.apt:
+        name: apache2
+        state: present

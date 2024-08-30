@@ -1,0 +1,3495 @@
+{
+  "datastores": [
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-30"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "green",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        33334382
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\ZABBIX",
+          "group": false,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\Teams_Infra_Tail",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "principal": "VSPHERE.LOCAL\\SIO2023-2025",
+          "group": true,
+          "roleId": 33334382,
+          "propagate": true
+        }
+      ],
+      "name": "NFS01",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "green",
+          "time": "2024-07-10T12:57:28.943999Z",
+          "acknowledged": false,
+          "acknowledgedTime": "1970-01-01T00:00:00Z"
+        },
+        {
+          "key": "alarm-79.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-30",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-30"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": null,
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "NFS01",
+        "url": "ds:///vmfs/volumes/4de366de-6ea4499e/",
+        "freeSpace": 118089981952,
+        "maxFileSize": 17592185978880,
+        "maxVirtualDiskCapacity": 17418005919683,
+        "maxMemoryFileSize": 17592185978880,
+        "timestamp": "2024-08-18T21:24:59.061513Z",
+        "nas": {
+          "type": "NFS",
+          "name": "NFS01",
+          "capacity": 644107726848,
+          "remoteHost": "172.16.200.230",
+          "remotePath": "/data01",
+          "remoteHostNames": [
+            "172.16.200.230"
+          ],
+          "protocolEndpoint": false
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-30"
+        },
+        "name": "NFS01",
+        "url": "ds:///vmfs/volumes/4de366de-6ea4499e/",
+        "capacity": 644107726848,
+        "freeSpace": 118089981952,
+        "accessible": true,
+        "multipleHostAccess": true,
+        "type": "NFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-9"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/4de366de-6ea4499e",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        },
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-406"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/4de366de-6ea4499e",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13804"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13798"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13797"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13784"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13783"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13778"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13777"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13766"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13757"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13750"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13748"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13741"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13732"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13716"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13715"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13714"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13657"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13698"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12385"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7722"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12388"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7246"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7245"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13745"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13462"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7706"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12619"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12374"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12060"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13751"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12058"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12052"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12048"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11549"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12042"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12040"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13771"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12039"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11954"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7450"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13789"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11935"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11947"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11065"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12059"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11888"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5894"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2169"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12693"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12660"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6071"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10498"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11397"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12361"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11950"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6018"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2160"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13658"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6024"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12576"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-1308"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11392"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2166"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13094"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7154"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12354"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13754"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10187"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7405"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11659"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13530"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12537"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10022"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11386"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11214"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12088"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13028"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10725"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11972"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13240"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9954"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10665"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11569"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13543"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13726"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11402"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5969"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7248"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8379"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11365"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10016"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12325"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5779"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11438"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10662"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9955"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8044"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11342"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11982"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10663"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8497"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10550"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9895"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11984"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10661"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12542"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13597"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12526"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11218"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12658"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11371"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10122"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10724"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10659"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9508"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12334"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-1180"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12095"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2599"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6007"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12527"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10682"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10538"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13476"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11357"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12364"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6032"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9415"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11404"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10727"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9825"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9741"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5848"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11390"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12997"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13713"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13729"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11341"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13603"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13217"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10664"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12107"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12122"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10681"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9544"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13794"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11182"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13769"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10719"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9570"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13463"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11973"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6357"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2600"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12311"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10666"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11903"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9549"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11904"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11894"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2592"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13535"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5776"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6020"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9523"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11370"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10626"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10732"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11323"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9897"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13792"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2591"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13538"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13747"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8375"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11361"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7247"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7950"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11995"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11551"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9898"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13791"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13537"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12846"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10660"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11941"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8524"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9413"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9535"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13664"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8698"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10014"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9738"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12363"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10021"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11437"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13202"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9830"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12120"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11966"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11124"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12833"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12089"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13590"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11608"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11364"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11957"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10267"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6072"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13469"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11366"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8095"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12123"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10672"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13588"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11974"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11369"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11998"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12447"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10536"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13795"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2590"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13727"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2593"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13613"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7394"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12844"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10880"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13539"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7382"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-1062"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10298"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13790"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13536"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9946"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13776"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12105"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12114"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13756"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8659"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11880"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10708"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9016"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5784"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7383"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11356"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13770"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12034"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12834"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8394"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13767"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8395"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13752"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8580"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6034"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5772"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7393"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11996"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9521"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12535"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11389"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11405"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9414"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9526"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11406"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9527"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12091"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11044"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11948"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11104"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-2130"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9253"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13545"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9534"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13768"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10718"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11319"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10674"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5887"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-7761"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11217"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11563"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12684"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-30"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": false,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": true,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    },
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-32"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "red",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        414843380
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        }
+      ],
+      "name": "data01ssd1.75",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "red",
+          "time": "2024-08-29T08:05:54.518227Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-79.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": [
+        {
+          "key": "alarm-7.datastore-32",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-32"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "red",
+          "time": "2024-08-29T08:05:54.518227Z",
+          "acknowledged": false
+        }
+      ],
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "data01ssd1.75",
+        "url": "ds:///vmfs/volumes/5d039588-e107638a-4ef7-b0262856cf1c/",
+        "freeSpace": 236496879616,
+        "maxFileSize": 70368744177664,
+        "maxVirtualDiskCapacity": 68169720922112,
+        "maxMemoryFileSize": 70368744177664,
+        "timestamp": "2024-08-29T14:05:57.970858Z",
+        "maxPhysicalRDMFileSize": 70368744177664,
+        "maxVirtualRDMFileSize": 68169720922112,
+        "vmfs": {
+          "type": "VMFS",
+          "name": "data01ssd1.75",
+          "capacity": 1920118816768,
+          "blockSizeMb": 1,
+          "blockSize": 1024,
+          "unmapGranularity": 1024,
+          "unmapPriority": "low",
+          "maxBlocks": 63963136,
+          "majorVersion": 6,
+          "version": "6.82",
+          "uuid": "5d039588-e107638a-4ef7-b0262856cf1c",
+          "extent": [
+            {
+              "diskName": "naa.58ce38ee20860659",
+              "partition": 1
+            }
+          ],
+          "vmfsUpgradable": false,
+          "ssd": true,
+          "local": true
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-32"
+        },
+        "name": "data01ssd1.75",
+        "url": "ds:///vmfs/volumes/5d039588-e107638a-4ef7-b0262856cf1c/",
+        "capacity": 1920118816768,
+        "freeSpace": 236496879616,
+        "uncommitted": 1059586641303,
+        "accessible": true,
+        "multipleHostAccess": false,
+        "type": "VMFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-9"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/5d039588-e107638a-4ef7-b0262856cf1c",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13798"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13804"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13790"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13754"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13751"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13747"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13745"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13732"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13795"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12651"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13789"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9253"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10187"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13791"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13756"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13766"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-32"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": true,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": false,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    },
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-33"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "green",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        414843380
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        }
+      ],
+      "name": "data02ssd1.75",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "green",
+          "time": "2024-07-10T11:23:59.92Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-79.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-33",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-33"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": null,
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "data02ssd1.75",
+        "url": "ds:///vmfs/volumes/5d0395ca-313ec71c-5d61-b0262856cf1c/",
+        "freeSpace": 701211082752,
+        "maxFileSize": 70368744177664,
+        "maxVirtualDiskCapacity": 68169720922112,
+        "maxMemoryFileSize": 70368744177664,
+        "timestamp": "2024-08-29T14:05:57.97877Z",
+        "maxPhysicalRDMFileSize": 70368744177664,
+        "maxVirtualRDMFileSize": 68169720922112,
+        "vmfs": {
+          "type": "VMFS",
+          "name": "data02ssd1.75",
+          "capacity": 1920118816768,
+          "blockSizeMb": 1,
+          "blockSize": 1024,
+          "unmapGranularity": 1024,
+          "unmapPriority": "low",
+          "maxBlocks": 63963136,
+          "majorVersion": 6,
+          "version": "6.82",
+          "uuid": "5d0395ca-313ec71c-5d61-b0262856cf1c",
+          "extent": [
+            {
+              "diskName": "naa.58ce38ee206756f1",
+              "partition": 1
+            }
+          ],
+          "vmfsUpgradable": false,
+          "ssd": true,
+          "local": true
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-33"
+        },
+        "name": "data02ssd1.75",
+        "url": "ds:///vmfs/volumes/5d0395ca-313ec71c-5d61-b0262856cf1c/",
+        "capacity": 1920118816768,
+        "freeSpace": 701211082752,
+        "uncommitted": 1015146450883,
+        "accessible": true,
+        "multipleHostAccess": false,
+        "type": "VMFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-9"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/5d0395ca-313ec71c-5d61-b0262856cf1c",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13767"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13046"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12667"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13794"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-8698"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9741"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9738"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-33"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": true,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": false,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    },
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-34"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "green",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        414843380
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        }
+      ],
+      "name": "data03ssd1.75",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "green",
+          "time": "2024-07-03T06:52:30.527Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-79.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-34",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-34"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": null,
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "data03ssd1.75",
+        "url": "ds:///vmfs/volumes/5d0395f8-c789c020-5703-b0262856cf1c/",
+        "freeSpace": 730761003008,
+        "maxFileSize": 70368744177664,
+        "maxVirtualDiskCapacity": 68169720922112,
+        "maxMemoryFileSize": 70368744177664,
+        "timestamp": "2024-08-29T14:11:18.1658Z",
+        "maxPhysicalRDMFileSize": 70368744177664,
+        "maxVirtualRDMFileSize": 68169720922112,
+        "vmfs": {
+          "type": "VMFS",
+          "name": "data03ssd1.75",
+          "capacity": 1920118816768,
+          "blockSizeMb": 1,
+          "blockSize": 1024,
+          "unmapGranularity": 1024,
+          "unmapPriority": "low",
+          "maxBlocks": 63963136,
+          "majorVersion": 6,
+          "version": "6.82",
+          "uuid": "5d0395f8-c789c020-5703-b0262856cf1c",
+          "extent": [
+            {
+              "diskName": "naa.58ce38ee20860661",
+              "partition": 1
+            }
+          ],
+          "vmfsUpgradable": false,
+          "ssd": true,
+          "local": true
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-34"
+        },
+        "name": "data03ssd1.75",
+        "url": "ds:///vmfs/volumes/5d0395f8-c789c020-5703-b0262856cf1c/",
+        "capacity": 1920118816768,
+        "freeSpace": 730761003008,
+        "uncommitted": 3517124875408,
+        "accessible": true,
+        "multipleHostAccess": false,
+        "type": "VMFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-9"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/5d0395f8-c789c020-5703-b0262856cf1c",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13752"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13750"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13797"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-6357"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13748"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13588"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9830"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13573"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-34"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": true,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": false,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    },
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-35"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "green",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        414843380
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        }
+      ],
+      "name": "data04ssd1.75",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "green",
+          "time": "2024-01-24T15:41:55.371Z",
+          "acknowledged": false,
+          "acknowledgedTime": "1970-01-01T00:00:00Z"
+        },
+        {
+          "key": "alarm-79.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-35",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-35"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": null,
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "data04ssd1.75",
+        "url": "ds:///vmfs/volumes/5d039617-8db60d68-d607-b0262856cf1c/",
+        "freeSpace": 168939225088,
+        "maxFileSize": 70368744177664,
+        "maxVirtualDiskCapacity": 68169720922112,
+        "maxMemoryFileSize": 70368744177664,
+        "timestamp": "2024-08-28T23:35:36.389596Z",
+        "maxPhysicalRDMFileSize": 70368744177664,
+        "maxVirtualRDMFileSize": 68169720922112,
+        "vmfs": {
+          "type": "VMFS",
+          "name": "data04ssd1.75",
+          "capacity": 1920118816768,
+          "blockSizeMb": 1,
+          "blockSize": 1024,
+          "unmapGranularity": 1024,
+          "unmapPriority": "low",
+          "maxBlocks": 63963136,
+          "majorVersion": 6,
+          "version": "6.82",
+          "uuid": "5d039617-8db60d68-d607-b0262856cf1c",
+          "extent": [
+            {
+              "diskName": "naa.58ce38ee20860629",
+              "partition": 1
+            }
+          ],
+          "vmfsUpgradable": false,
+          "ssd": true,
+          "local": true
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-35"
+        },
+        "name": "data04ssd1.75",
+        "url": "ds:///vmfs/volumes/5d039617-8db60d68-d607-b0262856cf1c/",
+        "capacity": 1920118816768,
+        "freeSpace": 168939225088,
+        "uncommitted": 916254711038,
+        "accessible": true,
+        "multipleHostAccess": false,
+        "type": "VMFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-9"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/5d039617-8db60d68-d607-b0262856cf1c",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5546"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10723"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12334"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10718"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10719"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-10298"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-35"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": true,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": false,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    },
+    {
+      "self": {
+        "type": "Datastore",
+        "value": "datastore-416"
+      },
+      "value": null,
+      "availableField": null,
+      "parent": {
+        "type": "Folder",
+        "value": "group-s5"
+      },
+      "customValue": null,
+      "overallStatus": "green",
+      "configStatus": "gray",
+      "configIssue": null,
+      "effectiveRole": [
+        414843380
+      ],
+      "permission": [
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\beitcorp",
+          "group": false,
+          "roleId": -1,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\BTS-SIO",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C2",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_248",
+          "group": true,
+          "roleId": 888801199,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_249",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_250",
+          "group": true,
+          "roleId": -5,
+          "propagate": false
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR-C1",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_247",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        },
+        {
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "principal": "VSPHERE.LOCAL\\GR_Projet_246",
+          "group": true,
+          "roleId": -5,
+          "propagate": true
+        }
+      ],
+      "name": "DATASTORE-PROD-1",
+      "disabledMethod": [
+        "DatastoreExitMaintenanceMode_Task"
+      ],
+      "recentTask": null,
+      "declaredAlarmState": [
+        {
+          "key": "alarm-110.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-110"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-24.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-24"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-28.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-28"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-29.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-29"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-53.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-53"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-7.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-7"
+          },
+          "overallStatus": "green",
+          "time": "2024-08-23T10:51:53.919243Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-79.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-79"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-80.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-80"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        },
+        {
+          "key": "alarm-84.datastore-416",
+          "entity": {
+            "type": "Datastore",
+            "value": "datastore-416"
+          },
+          "alarm": {
+            "type": "Alarm",
+            "value": "alarm-84"
+          },
+          "overallStatus": "gray",
+          "time": "2024-08-18T21:24:53.774249Z",
+          "acknowledged": false
+        }
+      ],
+      "triggeredAlarmState": null,
+      "alarmActionsEnabled": true,
+      "tag": null,
+      "info": {
+        "name": "DATASTORE-PROD-1",
+        "url": "ds:///vmfs/volumes/5c765954-12f9cd59-e90f-a0369f4dd10c/",
+        "freeSpace": 1297026646016,
+        "maxFileSize": 70368744177664,
+        "maxVirtualDiskCapacity": 68169720922112,
+        "maxMemoryFileSize": 70368744177664,
+        "timestamp": "2024-08-29T14:07:42.026363Z",
+        "maxPhysicalRDMFileSize": 70368744177664,
+        "maxVirtualRDMFileSize": 68169720922112,
+        "vmfs": {
+          "type": "VMFS",
+          "name": "DATASTORE-PROD-1",
+          "capacity": 6597875073024,
+          "blockSizeMb": 1,
+          "blockSize": 1024,
+          "unmapGranularity": 1024,
+          "unmapPriority": "low",
+          "maxBlocks": 63963136,
+          "majorVersion": 6,
+          "version": "6.81",
+          "uuid": "5c765954-12f9cd59-e90f-a0369f4dd10c",
+          "extent": [
+            {
+              "diskName": "naa.6c81f66000c460ef0000141a5c76c3b1",
+              "partition": 1
+            }
+          ],
+          "vmfsUpgradable": false,
+          "ssd": false,
+          "local": false
+        }
+      },
+      "summary": {
+        "datastore": {
+          "type": "Datastore",
+          "value": "datastore-416"
+        },
+        "name": "DATASTORE-PROD-1",
+        "url": "ds:///vmfs/volumes/5c765954-12f9cd59-e90f-a0369f4dd10c/",
+        "capacity": 6597875073024,
+        "freeSpace": 1297026646016,
+        "uncommitted": 4026095961718,
+        "accessible": true,
+        "multipleHostAccess": false,
+        "type": "VMFS",
+        "maintenanceMode": "normal"
+      },
+      "host": [
+        {
+          "key": {
+            "type": "HostSystem",
+            "value": "host-406"
+          },
+          "mountInfo": {
+            "path": "/vmfs/volumes/5c765954-12f9cd59-e90f-a0369f4dd10c",
+            "accessMode": "readWrite",
+            "mounted": true,
+            "accessible": true
+          }
+        }
+      ],
+      "vm": [
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13777"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13769"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13768"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13530"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12095"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12091"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13603"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11996"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13463"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13783"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12107"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12840"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13657"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12526"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-9892"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13535"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12089"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12535"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13778"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12537"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13202"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13727"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13217"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13028"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11935"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13698"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12325"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13658"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11950"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13613"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13469"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12660"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11982"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11983"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11984"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13757"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12576"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11957"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-5234"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13784"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-12088"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13462"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13713"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13714"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13770"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13715"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13771"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13716"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-11998"
+        },
+        {
+          "type": "VirtualMachine",
+          "value": "vm-13729"
+        }
+      ],
+      "browser": {
+        "type": "HostDatastoreBrowser",
+        "value": "datastoreBrowser-datastore-416"
+      },
+      "capability": {
+        "directoryHierarchySupported": true,
+        "rawDiskMappingsSupported": true,
+        "perFileThinProvisioningSupported": true,
+        "storageIORMSupported": true,
+        "nativeSnapshotSupported": false,
+        "topLevelDirectoryCreateSupported": true,
+        "seSparseSupported": true,
+        "vmfsSparseSupported": false,
+        "vsanSparseSupported": false,
+        "vmdkExpandSupported": true
+      },
+      "iormConfiguration": {
+        "enabled": false,
+        "congestionThresholdMode": "automatic",
+        "congestionThreshold": 30,
+        "percentOfPeakThroughput": 90,
+        "statsCollectionEnabled": false,
+        "reservationEnabled": true,
+        "statsAggregationDisabled": false
+      }
+    }
+  ]
+}

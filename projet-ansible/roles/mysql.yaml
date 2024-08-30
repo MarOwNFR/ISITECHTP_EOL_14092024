@@ -1,0 +1,67 @@
+---
+- name: Configure MySQL repository and install MySQL
+  hosts: mysqlserver
+  remote_user: user
+  become: true
+  become_user: root
+
+  vars:
+    MySQL_root_pass: "P@ssw0rd123456"
+    mysql_apt_config_url: "https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb"
+    mysql_apt_config_file: "/tmp/mysql-apt-config_0.8.29-1_all.deb"
+
+  tasks:
+    - name: Update the package list with apt-get update
+      apt:
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Download MySQL APT configuration package
+      get_url:
+        url: "{{ mysql_apt_config_url }}"
+        dest: "{{ mysql_apt_config_file }}"
+      when: ansible_os_family == "Debian"
+
+    - name: Install MySQL APT configuration package with dpkg
+      ansible.builtin.shell: "dpkg -i {{ mysql_apt_config_file }}"
+      when: ansible_os_family == "Debian"
+
+    - name: Reconfigure MySQL APT repository
+      ansible.builtin.shell: "echo 'mysql-apt-config mysql-apt-config/select-server select mysql-8.0' | debconf-set-selections && dpkg-reconfigure -f noninteractive mysql-apt-config"
+      when: ansible_os_family == "Debian"
+
+    - name: Update the package list after MySQL APT configuration
+      apt:
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Install MySQL server and client
+      apt:
+        name: "{{ item }}"
+        state: present
+        force: yes
+      loop:
+        - mysql-server
+        - mysql-client
+      when: ansible_os_family == "Debian"
+
+    - name: Ensure MySQL root password is set
+      mysql_user:
+        name: root
+        host: localhost
+        password: "{{ MySQL_root_pass }}"
+      when: ansible_os_family == "Debian"
+
+    - name: Ensure MySQL is started and enabled
+      service:
+        name: mysql
+        state: started
+        enabled: true
+
+    - name: Display MySQL version
+      ansible.builtin.shell: mysql --version
+      register: mysql_version
+
+    - name: Show MySQL version
+      debug:
+        msg: "{{ mysql_version.stdout }}"
